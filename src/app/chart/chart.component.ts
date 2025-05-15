@@ -52,6 +52,7 @@ export class ChartComponent implements OnInit {
       xAxis: {
         type: 'category',
         data: this.chartData.map(item => item.category),
+        
         axisLabel: {
           rotate: 45
         }
