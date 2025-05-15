@@ -1,0 +1,24 @@
+.chart-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-controls {
+    margin-bottom: 20px;
+  }
+  
+  .chart-controls select {
+    padding: 8px;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .chart {
+    width: 80%;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
